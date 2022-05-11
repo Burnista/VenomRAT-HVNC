@@ -3,3 +3,4 @@ This repository contains the release and source of one of the most powrful RAT s
 
 Will crypt any .NET file to FUD for 20$
 Discord: Bossi#0420
+(WD Bypass Guaranteed)
