@@ -1,7 +1,3 @@
-# VenomRAT(HVNC)
+This repository contains the release and source of one of the most powrful RAT softwares out there (venomcontrol.com).
+ The rat has any high quality features such as HVNC, UAC Exploit (which even works on windows 11) and much more.
 
-First of many releases, when I get some time ill upload all old ones as well as every new one IF it comes out ;)
-
-Have fun...
-
- https://venomcontrol.com/
